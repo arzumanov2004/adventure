@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 80px;
+  position: absolute;
+}
+header .navbar .collapse ul {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+header .navbar .collapse ul li a {
+  color: black;
+}
+header .navbar .icons {
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 25px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+#DISCOVER {
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/adventure/img/slider1.jpg");
+}
+#DISCOVER .COLORFUL {
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#DISCOVER .COLORFUL .WORLDS {
+  width: 100%;
+  height: auto;
+  color: white;
+}
+#DISCOVER .COLORFUL .WORLDS h1 {
+  font-size: 59px;
+  font-weight: 800;
+  margin: 20px;
+}
+#DISCOVER .COLORFUL .WORLDS button {
+  width: 15%;
+  min-height: 40px;
+  border-radius: 30px;
+  border: none;
+}
+#DISCOVER .COLORFUL .WORLDS button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  #DISCOVER .COLORFUL .WORLDS h1 {
+    font-size: 30px;
+  }
+}
+#Some {
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Some .Features {
+  width: 100%;
+  min-height: 700px;
+}
+#Some .Features .Made {
+  width: 100%;
+  min-height: 200px;
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+#Some .Features .Professional {
+  width: 100%;
+  height: auto;
+  border: 0.3px solid rgb(193, 193, 193);
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#Some .Features .Professional .Service {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (max-width: 800px) {
+  #Some .Features .Made h1 {
+    font-size: 30px;
+  }
+}
+#adToBasket {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adToBasket .inpbtn {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adToBasket .inpbtn #inp {
+  width: 30%;
+  min-height: 40px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 20px;
+}
+#adToBasket .inpbtn #search {
+  width: 10%;
+  min-height: 40px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  background-color: #7FAD39;
+  color: white;
+  margin-left: 10px;
+}
+#adToBasket .inpbtn #search:hover {
+  background-color: #000000;
+  color: white;
+}
+#adToBasket #myDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+#adToBasket #myDiv .myBox {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#adToBasket #myDiv .myBox img {
+  width: 100%;
+  min-height: 300px;
+}
+#adToBasket #myDiv .myBox h6 {
+  color: black;
+  font-weight: 800;
+}
+#adToBasket #myDiv .myBox button {
+  width: 60%;
+  min-height: 40px;
+  border: none;
+  background-color: transparent;
+}
+#adToBasket #myDiv .myBox button:hover {
+  color: #7FAD39;
+}
+#adToBasket #sortDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adToBasket #sortDiv .myBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adToBasket #sortDiv .myBox .boxDiv {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border: 0.3px solid rgb(194, 193, 193);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+#adToBasket #sortDiv .myBox .boxDiv img {
+  width: 30%;
+  height: 150px;
+}
+#adToBasket #sortDiv .myBox .boxDiv div h4 {
+  margin-right: 20px;
+  color: #7FAD39;
+}
+#adToBasket #sortbtn {
+  background-color: transparent;
+  border: 1px solid #7FAD39;
+  margin-left: 20px;
+}
+#adToBasket #sortbtn:hover {
+  color: #7FAD39;
+}
+#adToBasket #btn {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+}
+#adToBasket #btn:hover {
+  color: #7FAD39;
+}
